@@ -1,0 +1,16 @@
+DirectoryIndex index.php
+
+<FilesMatch "\.(flv|gif|jpg|jpeg|png|ico|js|css|pdf|swf|html|htm|txt)$">
+	Header set Cache-Control "max-age=5"
+</FilesMatch>
+
+<Files .htaccess>
+	Order allow,deny
+	Deny from all
+</Files>
+
+
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
