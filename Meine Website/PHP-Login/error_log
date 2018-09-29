@@ -1,0 +1,6 @@
+[17-Sep-2018 13:51:18 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nikos'@'ip-160-153-128-23.ip.secureserver.net' (using password: YES) in /home/fcalbbkdr3qa/public_html/MySite/db_con.php on line 18
+[17-Sep-2018 13:51:59 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nikos'@'ip-160-153-128-23.ip.secureserver.net' (using password: YES) in /home/fcalbbkdr3qa/public_html/MySite/db_con.php on line 18
+[17-Sep-2018 13:54:06 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user '160.153.128.23'@'ip-160-153-128-23.ip.secureserver.net' (using password: YES) in /home/fcalbbkdr3qa/public_html/MySite/db_con.php on line 18
+[17-Sep-2018 13:55:18 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user '160.153.146.73'@'ip-160-153-128-23.ip.secureserver.net' (using password: YES) in /home/fcalbbkdr3qa/public_html/MySite/db_con.php on line 18
+[17-Sep-2018 13:55:21 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user '160.153.146.73'@'ip-160-153-128-23.ip.secureserver.net' (using password: YES) in /home/fcalbbkdr3qa/public_html/MySite/db_con.php on line 18
+[17-Sep-2018 14:08:11 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host '160.153.146.73:3306' (2) in /home/fcalbbkdr3qa/public_html/MySite/db_con.php on line 18
